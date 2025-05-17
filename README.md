@@ -28,3 +28,16 @@ Used INDEXES to speed up data retrieval and enhance performance.
 Tools Used
 
 SQL (MySQL/PostgreSQL/SQLite – specify based on what you're using)
+
+task 4:
+Power BI / Tableau (based on selected implementation)
+Data Source(s): [Insert e.g., Excel, SQL Server, API, etc.]
+Optional: Python / SQL (for data cleaning or transformation)
+
+Drill-down capabilities
+Filters for region, product, time period, etc.
+KPI indicators and visualizations
+
+High-level insights
+Business recommendations
+Screenshots and narratives from the dashboard
