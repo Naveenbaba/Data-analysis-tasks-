@@ -41,3 +41,15 @@ KPI indicators and visualizations
 High-level insights
 Business recommendations
 Screenshots and narratives from the dashboard
+
+TASK-5 Exploratory Data Analysis (EDA)
+
+Description
+
+This task involves performing exploratory data analysis to understand the structure, distribution, and relationships within the dataset. Various statistical methods and visualizations are used to uncover insights and patterns.
+
+Key Steps
+
+📋 Data Overview Used .describe(), .info(), and .value_counts() to understand data types, missing values, and distribution of categorical variables. 📊 Data Visualization Created visualizations using: sns.pairplot() to observe pairwise relationships sns.heatmap() to show correlations between variables Histograms, boxplots, and scatterplots to analyze distributions and outliers 🔍 Trend & Relationship Analysis Identified key relationships between variables (e.g., sales vs. profit, discount impact) Detected patterns, outliers, and correlations 📝 Observations & Summary Wrote brief insights for each visual Provided a summary of overall findings to guide further analysis and decision-making Tools Used
+
+Python (Pandas, Seaborn, Matplotlib)
