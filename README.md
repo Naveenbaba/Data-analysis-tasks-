@@ -53,3 +53,25 @@ Key Steps
 📋 Data Overview Used .describe(), .info(), and .value_counts() to understand data types, missing values, and distribution of categorical variables. 📊 Data Visualization Created visualizations using: sns.pairplot() to observe pairwise relationships sns.heatmap() to show correlations between variables Histograms, boxplots, and scatterplots to analyze distributions and outliers 🔍 Trend & Relationship Analysis Identified key relationships between variables (e.g., sales vs. profit, discount impact) Detected patterns, outliers, and correlations 📝 Observations & Summary Wrote brief insights for each visual Provided a summary of overall findings to guide further analysis and decision-making Tools Used
 
 Python (Pandas, Seaborn, Matplotlib)
+
+TASK-6 Time-Based Sales Analysis (SQL)
+
+Description
+
+This task focuses on analyzing sales data over time using SQL queries. The goal is to extract monthly and yearly trends in revenue and order volume to support business planning and forecasting.
+
+Key SQL Operations
+
+Date Extraction: Used EXTRACT(MONTH FROM order_date) to group data by month. Grouping: Grouped sales data by year and month using GROUP BY. Revenue Calculation: Used SUM() to calculate total monthly revenue. Order Volume: Used COUNT(DISTINCT order_id) to calculate total number of unique orders. Sorting: Applied ORDER BY to sort results chronologically. Time Filtering: Limited results to specific time periods for focused analysis. Tools Used
+
+SQL (PostgreSQL)
+
+TASK-7 Description
+
+This task demonstrates how to connect a SQLite database to Python, run SQL queries, and visualize the results using pandas and matplotlib. The goal is to analyze total quantity sold and revenue generated per product.
+
+Key Steps
+
+Connected to sales_data.db using sqlite3 Ran a SQL query to calculate total quantity and revenue per product Loaded query results into a pandas DataFrame Displayed results using print() Plotted a bar chart of product revenue using matplotlib Tools Used
+
+Python (sqlite3, pandas, matplotlib) Postgresql Database
